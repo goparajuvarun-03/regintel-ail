@@ -1,0 +1,42 @@
+SAMPLE DOCUMENT - For demonstration purposes only
+
+CMS-SAMPLE-4201-P (Proposed Rule)
+
+Medicare Advantage and Part D Programs:
+Continuity of Care Protections During Plan Transitions
+
+Issuing Body: Centers for Medicare & Medicaid Services
+Effective Date: January 15, 2026
+Status: Proposed Rule
+
+SUMMARY
+
+This proposed rule would establish new continuity-of-care protections for Medicare Advantage (MA) members who transition between plans. The rule would require MA organizations to honor prior authorization decisions issued by a member's previous plan for a transition period, ensuring members do not experience disruption in ongoing courses of treatment.
+
+§ 422.138 Continuity of Care During Plan Transitions
+
+(a) Scope. This section applies to all Medicare Advantage organizations and all members who transition between MA plans, including transitions from Original Medicare to MA, and transitions between MA organizations.
+
+(b) Prior Authorization Honor Period. A Medicare Advantage organization shall honor any active prior authorization decision issued by a member's previous plan for a period of not less than 30 days following the member's effective date of enrollment.
+
+(c) Documentation. The MA organization shall document its determination to honor or extend the prior authorization in the member's case file and notify the treating provider in writing within 7 business days of the member's effective enrollment date.
+
+(d) Member Communication. Members shall be notified of their continuity-of-care rights through the standard enrollment materials and through the plan's website.
+
+§ 422.166 Quality Rating Adjustments
+
+(a) Star Rating Calculation. The Star Rating calculation methodology shall remain unchanged for measurement year 2026.
+
+(b) Guardrails. Cut points for individual measures shall be capped at 1 standard deviation from the prior year's cut points.
+
+§ 422.504 Compliance Requirements
+
+(a) Internal Policy Updates. MA organizations shall update internal policies, procedures, and member communications to reflect the requirements of § 422.138 no later than the effective date.
+
+(b) Audit Documentation. MA organizations shall maintain documentation sufficient to demonstrate compliance with § 422.138 for a period of not less than 10 years.
+
+(c) Training. Customer service representatives, claims processors, and prior authorization staff shall receive training on continuity-of-care requirements no later than the effective date.
+
+PUBLIC COMMENT PERIOD
+
+Comments on this proposed rule will be accepted for 60 days following publication in the Federal Register.

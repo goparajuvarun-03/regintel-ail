@@ -1,0 +1,46 @@
+SAMPLE DOCUMENT - For demonstration purposes only
+
+CMS-SAMPLE-4201-F (Final Rule)
+
+Medicare Advantage and Part D Programs:
+Continuity of Care Protections During Plan Transitions
+
+Issuing Body: Centers for Medicare & Medicaid Services
+Effective Date: January 15, 2026
+Status: Final Rule
+
+SUMMARY
+
+This final rule establishes new continuity-of-care protections for Medicare Advantage (MA) members who transition between plans. After review of public comments, CMS has extended the prior authorization honor period from 30 days to 90 days and added new written notice requirements for denials issued during the transition window.
+
+§ 422.138 Continuity of Care During Plan Transitions
+
+(a) Scope. This section applies to all Medicare Advantage organizations and all members who transition between MA plans, including transitions from Original Medicare to MA, and transitions between MA organizations.
+
+(b) Prior Authorization Honor Period. A Medicare Advantage organization shall honor any active prior authorization decision issued by a member's previous plan for a period of not less than 90 days following the member's effective date of enrollment. For courses of treatment with a clinically established duration exceeding 90 days, the organization shall honor the prior authorization for the full duration of the established treatment plan.
+
+(c) Documentation. The MA organization shall document its determination to honor or extend the prior authorization in the member's case file and notify the treating provider in writing within 5 business days of the member's effective enrollment date.
+
+(d) Notice of Denial During Transition. If the MA organization determines that it cannot honor a prior authorization decision during the transition window, the organization shall provide written notice to the member and treating provider within 5 business days of the determination. The notice shall include the specific clinical or coverage rationale for the denial and shall include information regarding the member's right to appeal.
+
+(e) Member Communication. Members shall be notified of their continuity-of-care rights through the standard enrollment materials, through the plan's website, and through a dedicated communication issued no later than 14 days following the member's effective date.
+
+§ 422.166 Quality Rating Adjustments
+
+(a) Star Rating Calculation. The Star Rating calculation methodology shall remain unchanged for measurement year 2026.
+
+(b) Guardrails. Cut points for individual measures shall be capped at 2 standard deviations from the prior year's cut points.
+
+§ 422.504 Compliance Requirements
+
+(a) Internal Policy Updates. MA organizations shall update internal policies, procedures, and member communications to reflect the requirements of § 422.138 no later than the effective date.
+
+(b) Audit Documentation. MA organizations shall maintain documentation sufficient to demonstrate compliance with § 422.138 for a period of not less than 10 years.
+
+(c) Training. Customer service representatives, claims processors, and prior authorization staff shall receive training on continuity-of-care requirements no later than the effective date.
+
+(d) Quarterly Reporting. Beginning Q1 2026, MA organizations shall submit quarterly reports to CMS detailing the number of transitions processed, prior authorizations honored, and denials issued during transition windows.
+
+EFFECTIVE DATE AND IMPLEMENTATION
+
+This final rule is effective January 15, 2026. CMS has finalized this rule with the modifications described in the preamble after review of 247 public comments.

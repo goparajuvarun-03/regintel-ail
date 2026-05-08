@@ -1,0 +1,63 @@
+SAMPLE DOCUMENT - For demonstration purposes only
+
+SYSTEM ARCHITECTURE: SYS-ARC-MA-101
+Medicare Advantage Core Claims Engine - Architecture Overview
+
+Owner: Engineering / IT Architecture
+Document Version: 1.7
+Last Updated: October 1, 2025
+
+1. SYSTEM OVERVIEW
+
+The Medicare Advantage Core Claims Engine (MA-CCE) is the primary system for adjudicating professional, outpatient institutional, and ambulatory surgical center claims for Acme Health Plan's MA membership. The system is built on Cognizant TriZetto Facets v15.2 with custom extensions developed in-house.
+
+2. KEY MODULES
+
+2.1 Adjudication Module
+Responsible for end-to-end claim processing from intake through payment determination. Uses configurable rule sets to apply benefits, edits, and pricing.
+
+2.2 Prior Authorization Module (PA-MOD-v4)
+Maintains the database of active and historical prior authorization decisions. Provides a query API to the adjudication module for PA matching during claim processing. Currently, the PA-MOD-v4 module checks PA records issued by Acme Health Plan only. There is no current interface for ingesting prior authorization records from other Medicare Advantage organizations.
+
+2.3 Edits Engine
+Houses the library of claim edits, including National Correct Coding Initiative (NCCI), Medicare-specific edits, and Acme custom edits. Edits are versioned and date-effective.
+
+2.4 Provider Roster Interface
+Synchronizes nightly with the Acme provider master database to keep network status, credentialing dates, and contracted rates current.
+
+2.5 Member Eligibility Interface
+Synchronizes hourly with the member eligibility system to reflect enrollments, terminations, and plan changes.
+
+3. INTEGRATION POINTS
+
+The MA-CCE integrates with the following internal and external systems:
+
+- EDI Gateway (837/835 transactions)
+- Provider master database
+- Member eligibility system
+- Clinical review platform
+- Disbursement engine
+- CMS encounter data submission system (EDPS)
+- Reporting data warehouse
+
+4. KNOWN LIMITATIONS
+
+4.1 Inter-Plan PA Records
+The current PA-MOD-v4 architecture does not support ingestion of prior authorization records from external Medicare Advantage organizations. Manual entry of external PA records is required where applicable, with significant operational overhead.
+
+4.2 Continuity of Care Logic
+The MA-CCE adjudication module does not currently include continuity-of-care logic for transitioning members. Claims for transitioning members are processed under standard adjudication rules.
+
+5. PLANNED ENHANCEMENTS (FY 2026)
+
+The following enhancements are on the FY 2026 architecture roadmap, status indicated:
+
+- Real-time member eligibility synchronization (status: scoping)
+- Cloud migration for the Edits Engine (status: vendor evaluation)
+- Provider directory accuracy improvements (status: in development)
+
+6. OWNERSHIP
+
+- Application owner: Director of Engineering, Claims Platform
+- Infrastructure owner: VP, IT Operations
+- Vendor relationship: Cognizant TriZetto account team

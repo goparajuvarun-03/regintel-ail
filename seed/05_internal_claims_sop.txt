@@ -1,0 +1,64 @@
+SAMPLE DOCUMENT - For demonstration purposes only
+
+STANDARD OPERATING PROCEDURE: SOP-CLM-014
+Claims Adjudication Workflow - New-Member Triage
+
+Owner: Claims Operations Department
+Effective Date: June 1, 2025
+Document Version: 2.4
+
+1. OVERVIEW
+
+This SOP describes the claims adjudication workflow for medical claims received for members within their first 90 days of enrollment with Acme Health Plan. This SOP applies to professional, outpatient institutional, and ambulatory surgical center claims.
+
+2. PROCESS STEPS
+
+Step 1: Claim Intake
+The claim is received via EDI 837 transaction or paper submission. The claim is loaded into the core claims engine and assigned a claim control number.
+
+Step 2: Member Eligibility Verification
+The claims engine verifies member eligibility for the date of service. Claims for non-eligible members are rejected with the appropriate denial code.
+
+Step 3: Provider Validation
+The rendering and billing providers are validated against the network roster. Out-of-network providers are routed to the out-of-network adjudication queue.
+
+Step 4: Prior Authorization Check
+The claims engine queries the internal PA module to determine whether a prior authorization on file matches the claimed service. Where no internal PA is found, the claim is held for medical necessity review by clinical staff.
+
+Step 5: Benefit Application
+The claims engine applies the member's benefit package, including deductibles, copayments, coinsurance, and out-of-pocket maximums.
+
+Step 6: Final Adjudication
+The claims engine produces a payment determination, generates the EOB, and routes the claim to disbursement.
+
+3. SPECIAL HANDLING
+
+3.1 New-Member Claims
+
+For claims with a service date within the member's first 90 days of enrollment, no special handling is performed under this current SOP version. Claims are adjudicated under standard logic.
+
+3.2 Pended Claims
+
+Claims pended for medical necessity review are routed to the clinical review queue with a target turnaround time of 14 calendar days.
+
+4. SYSTEMS INVOLVED
+
+- Core Claims Engine (vendor: Cognizant TriZetto Facets)
+- Prior Authorization Module (internal: PA-MOD-v4)
+- Provider Roster (internal: PROV-DB)
+- Member Eligibility System (internal: MEM-ELIG)
+
+5. METRICS
+
+This SOP is monitored against the following service-level metrics:
+
+- Average claim turnaround time: target ≤ 14 calendar days
+- First-pass adjudication rate: target ≥ 92%
+- Claim rework rate: target ≤ 4%
+
+6. APPROVAL
+
+Approved by:
+- Director of Claims Operations
+- VP of Operations
+- Chief Compliance Officer

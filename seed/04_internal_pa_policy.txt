@@ -1,0 +1,58 @@
+SAMPLE DOCUMENT - For demonstration purposes only
+
+INTERNAL POLICY: PA-CONT-001
+Prior Authorization Continuity Policy
+
+Owner: Chief Medical Officer
+Effective Date: March 1, 2025
+Last Reviewed: November 15, 2025
+Document Version: 3.2
+
+1. PURPOSE
+
+This policy establishes Acme Health Plan's procedures for handling prior authorization (PA) decisions when members transition into our Medicare Advantage plan from another Medicare Advantage organization or from Original Medicare.
+
+2. SCOPE
+
+This policy applies to all Medicare Advantage members enrolled in Acme Health Plan products, all utilization management staff, all claims adjudication personnel, and all member service representatives.
+
+3. POLICY STATEMENTS
+
+3.1 New-Member Identification
+
+All members enrolling in Acme MA plans shall be identified at the point of enrollment as new members or transitioning members. The enrollment system shall flag transitioning members for special handling.
+
+3.2 Prior Authorization Recognition
+
+Acme Health Plan shall make reasonable efforts to obtain prior authorization records from a member's previous health plan during the enrollment intake process. Where such records are obtained, they shall be loaded into the member's clinical case file.
+
+4.2 Continuity Window
+
+Acme Health Plan shall honor prior authorization decisions issued by a member's previous plan for a period of 30 days following the member's effective date of enrollment, provided that the prior authorization meets standard medical necessity criteria as defined by Acme Health Plan's clinical guidelines.
+
+4.3 Provider Notification
+
+For prior authorizations honored under this policy, the treating provider shall receive notification within 10 business days of the member's effective enrollment date, in accordance with Acme provider communication standards.
+
+5. EXCLUSIONS
+
+The continuity provisions of this policy do not apply to:
+
+- Services explicitly excluded from coverage under the member's plan benefits
+- Services for which the prior authorization was issued more than 12 months before the transition
+- Experimental or investigational services not recognized by current Acme medical policy
+
+6. ROLES AND RESPONSIBILITIES
+
+- Utilization Management Director: Policy ownership and annual review
+- Claims Operations Manager: Claims edit configuration
+- Member Services Director: Member communication scripts
+- Compliance Officer: Audit oversight
+
+7. REVISION HISTORY
+
+v1.0 - 2023-04-15 - Initial issuance
+v2.0 - 2024-01-01 - Updated to align with CY 2024 MA marketing rules
+v3.0 - 2024-09-01 - Added transition-of-care provisions
+v3.1 - 2025-02-15 - Editorial corrections
+v3.2 - 2025-11-15 - Most recent annual review (no substantive changes)

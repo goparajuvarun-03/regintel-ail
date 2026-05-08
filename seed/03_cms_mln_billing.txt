@@ -1,0 +1,41 @@
+SAMPLE DOCUMENT - For demonstration purposes only
+
+CMS-SAMPLE-MLN-12345 (Article)
+
+Updates to ICD-10-CM Code Validation Edits for Outpatient Claims
+
+Issuing Body: Centers for Medicare & Medicaid Services
+Effective Date: July 1, 2026
+Article Type: Operational Guidance
+
+PURPOSE
+
+This article notifies Medicare Administrative Contractors (MACs) and provider billing organizations of updates to the ICD-10-CM diagnosis code validation edits applied to outpatient institutional claims.
+
+KEY CHANGES
+
+Effective for claims with dates of service on or after July 1, 2026:
+
+1. New Edit 41-A. Claims submitted with ICD-10-CM diagnosis codes from category Z79 (long-term drug therapy) as the primary diagnosis without an accompanying secondary chronic condition code shall be returned to the provider for correction.
+
+2. Updated Edit 17-B. The list of valid principal diagnosis codes for ambulatory surgical centers has been expanded to include 47 additional codes reflecting current clinical practice.
+
+3. Removed Edit 22-C. The previous edit requiring laterality modifiers on certain musculoskeletal codes has been retired effective with this update.
+
+PROVIDER ACTION REQUIRED
+
+Provider billing systems and clearinghouses should be updated by July 1, 2026 to reflect these changes. Claims processed under the prior edit logic after the effective date will be returned for correction and may delay payment.
+
+PAYER OPERATIONAL IMPACT
+
+Health plans contracted as MACs and Medicare Advantage organizations performing claims adjudication should:
+
+- Update internal claims edit libraries to reflect the new and modified edits
+- Update provider-facing billing guidance and payer manuals
+- Coordinate with claims system vendors on release scheduling
+- Retrain claims processors on the updated edit logic
+
+REFERENCE
+
+Reference: 42 CFR § 424.32 (Required form and content)
+Related: ICD-10-CM Official Guidelines for Coding and Reporting, FY 2026
